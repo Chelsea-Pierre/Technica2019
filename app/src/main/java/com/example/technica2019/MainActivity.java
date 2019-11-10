@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity{
 
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_content_assignments);
         //Toolbar toolbar = findViewById(R.id.toolbar);
 
         //Placement for the transition and switch to new page
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity{
 
     public void openQuestionsPage(){
 
-        Intent intent = new Intent(this,content_Questions.class);
+        Intent intent = new Intent(this,content_assignments.class);
         startActivity(intent);
     }
 //    private void finishScreen){
