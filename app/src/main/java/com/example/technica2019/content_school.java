@@ -18,7 +18,7 @@ public class content_school extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.content_name);
+        setContentView(R.layout.content_school);
 
         Button button = findViewById(R.id.button4);
 

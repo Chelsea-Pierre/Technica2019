@@ -19,4 +19,7 @@
     <string name="app_title">Class Task</string>
     <string name="uni_enter_hint">Florida International University</string>
     <string name="load">Loading Your Tasks</string>
+    <string name="school_id">What is your school ID?</string>
+
+
 </resources>

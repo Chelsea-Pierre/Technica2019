@@ -18,7 +18,7 @@ public class content_ask extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.content_name);
+        setContentView(R.layout.content_ask);
 
         Button button = findViewById(R.id.button);
 
