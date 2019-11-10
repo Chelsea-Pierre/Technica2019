@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 public class content_load extends AppCompatActivity {
-private static int SPLASH_TIME_OUT = 10000;
+private static int SPLASH_TIME_OUT = 5000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ private static int SPLASH_TIME_OUT = 10000;
 
             @Override
                     public void run (){
-                Intent intent = new Intent(content_load.this, content_assignments.class);
+                Intent intent = new Intent(content_load.this, content_ask.class);
                 startActivity(intent);
                 finish();
             }
