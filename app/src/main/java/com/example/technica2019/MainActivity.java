@@ -18,63 +18,51 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected <LaunchActivity> void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //Toolbar toolbar = findViewById(R.id.toolbar);
 
         //Placement for the transition and switch to new page
 
-
+//This method doesn't work yet
+//        TimerTask task = new TimerTask() {
+//
+//            @Override
+//            public void run() {
+//                Intent intent = new Intent(SplashScreen.this, MainMenu.class);
+//                startActivity(intent);
+//                finishscreen();
+//            }
+//        };
+//        Timer t = new Timer();
+//        t.schedule(task, 5000);
 
 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                final Intent mainIntent = new Intent(.this, content_Questions.class);
-                LauncherActivity.this.startActivity(mainIntent);
-                LauncherActivity.this.finish();
+
+                final Intent mainIntent = new Intent(LauchActivity.this, HomeActivity.class);
+                LaunchActivity.this.startActivity(mainIntent);
+                LaunchActivity.this.finish();
             }
         }, 5000);
 
+        //Helps with putting a timer for this activity to work
 
-        public void openQuestionsPage(){
+       openQuestionsPage();
 
-            Intent intent = new Intent(this,content_Questions.class);
-            startActivity(intent);
-        }
 
-//Commented out because it had to do with another preexisting fab Deleted But kept just in case
-        //FloatingActionButton fab = findViewById(R.id.fab);
-        // fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
-//    }
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.menu_main, menu);
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
     }
+
+    public void openQuestionsPage(){
+
+        Intent intent = new Intent(this,content_Questions.class);
+        startActivity(intent);
+    }
+//    private void finishScreen){
+//        this.finish();
+//    }
 }
