@@ -18,4 +18,5 @@
     <string name="button_3">Next</string>
     <string name="app_title">Class Task</string>
     <string name="uni_enter_hint">Florida International University</string>
+    <string name="load">Loading Your Tasks</string>
 </resources>
