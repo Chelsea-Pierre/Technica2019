@@ -10,9 +10,8 @@
         android:id="@+id/fadingTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:texts="array/fading_main_text"
-        app:timeout="3000"
         android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+        app:texts="@array/fading_main_text"
+        app:timeout="3000" />
 
 </RelativeLayout>

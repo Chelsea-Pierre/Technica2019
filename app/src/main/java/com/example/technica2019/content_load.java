@@ -18,7 +18,7 @@ private static int SPLASH_TIME_OUT = 5000;
 
             @Override
                     public void run (){
-                Intent intent = new Intent(content_load.this, content_ask.class);
+                Intent intent = new Intent(content_load.this, content_assignments.class);
                 startActivity(intent);
                 finish();
             }

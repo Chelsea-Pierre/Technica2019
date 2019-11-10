@@ -33,7 +33,7 @@ public class content_ask extends AppCompatActivity {
 
     public void openContentAssignments (){
 
-        Intent intent = new Intent(this, content_assignments.class);
+        Intent intent = new Intent(this, content_load.class);
         startActivity(intent);
     }
 
