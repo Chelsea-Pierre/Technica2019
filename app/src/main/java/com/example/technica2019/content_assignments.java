@@ -68,16 +68,17 @@ public class content_assignments extends AppCompatActivity {
 
         listView.setAdapter(arrayAdapter);
 
-//        listView.setOnClickListener(new AdapterView.OnItemClickListener() {
-//
-//            @Override
-//            public void onItemClick(AdapterView<?> adapterView, View view) {
-//                //Toast.makeText(, "Selected Task Now In Progress", Toast.LENGTH_SHORT).show();
-//                Toast toast = Toast.makeText(getApplicationContext(), "Selected Task Now in Progress", Toast.LENGTH_SHORT);
-//                toast.show();
-//
-//            }
-//        });
+/*        listView.setOnClickListener(new AdapterView.OnItemClickListener() {
+
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view) {
+                Toast.makeText(, "Selected Task Now In Progress", Toast.LENGTH_SHORT).show();
+                Toast toast = Toast.makeText(getApplicationContext(), "Selected Task Now in Progress", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+*/
     }
 
 
