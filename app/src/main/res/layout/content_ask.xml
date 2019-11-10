@@ -29,7 +29,7 @@
         android:id="@+id/editText"
         android:layout_width="246dp"
         android:layout_height="41dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="68dp"
         android:autofillHints="@android:string/yes"
         android:ems="10"
         android:fontFamily="@font/abel"
@@ -39,6 +39,7 @@
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
