@@ -11,7 +11,7 @@
     <string name="button">Next</string>
     <string name="autofill_hint">Hint</string>
     <string name="student_name">What is your name?</string>
-    <string name="enter_name">Enter your name</string>
+    <string name="enter_name">John Doe</string>
     <string name="button_2">Next</string>
     <string name="school_name">What school do you go to?</string>
     <string name="enter_school">Enter school name</string>

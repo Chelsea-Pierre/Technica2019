@@ -31,14 +31,12 @@
         android:layout_marginTop="104dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@android:string/yes"
+        android:hint="@string/uni_enter_hint"
         android:inputType="textPersonName"
-        android:text="@string/uni_enter_hint"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView2"
-        tools:text="Florida Internataional University" />
+        app:layout_constraintTop_toTopOf="@+id/textView2" />
 
     <Button
         android:id="@+id/button4"
