@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 public class content_load extends AppCompatActivity {
-private static int SPLASH_TIME_OUT = 5000;
+private static int SPLASH_TIME_OUT = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
