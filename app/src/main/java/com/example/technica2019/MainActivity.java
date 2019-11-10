@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.content_assignments);
-
+        setContentView(R.layout.content_main);
+/*
         timer = new Timer();
         timer.schedule(new TimerTask() {
             @Override
@@ -39,7 +39,9 @@ public class MainActivity extends AppCompatActivity{
                 finish();
 
             }
-        }, 8000);
+        }, 8000);*/
+
+
     }
 
 }
