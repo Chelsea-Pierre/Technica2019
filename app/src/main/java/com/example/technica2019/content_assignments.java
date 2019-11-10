@@ -9,8 +9,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -26,10 +28,10 @@ public class content_assignments extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_content_assignments);
 
-        listView = (ListView)findViewById(R.id.listview);
+        listView = (ListView) findViewById(R.id.listview);
 
 
-        ArrayList <String> questions = new ArrayList <>();
+        ArrayList<String> questions = new ArrayList<>();
         questions.add("Due: November 10, 10 a.m.                        ETC: 1 hr " +
                 "\nFuture of Technology Presentation" +
                 "\nENC 3249");
@@ -61,13 +63,21 @@ public class content_assignments extends AppCompatActivity {
                 "\nLaw of Gravity Paper" +
                 "\nPHY2048");
 
-        ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,questions);
-
+        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, questions);
 
 
         listView.setAdapter(arrayAdapter);
 
+        listView.setOnClickListener(new AdapterView.OnItemClickListener() {
 
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view) {
+                //Toast.makeText(, "Selected Task Now In Progress", Toast.LENGTH_SHORT).show();
+                Toast toast = Toast.makeText(getApplicationContext(), "Selected Task Now in Progress", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
     }
 
 
