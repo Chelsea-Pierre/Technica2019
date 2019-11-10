@@ -11,7 +11,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 
 public class content_Questions extends AppCompatActivity {
-
+//this is just a trial page no need to take seriously -cp
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -29,39 +29,7 @@ public class MainActivity extends AppCompatActivity{
 
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_content_assignments);
-        //Toolbar toolbar = findViewById(R.id.toolbar);
-
-        //Placement for the transition and switch to new page
-
-//This method doesn't work yet
-//        TimerTask task = new TimerTask() {
-//
-//            @Override
-//            public void run() {
-//                Intent intent = new Intent(SplashScreen.this, MainMenu.class);
-//                startActivity(intent);
-//                finishScreen();
-//            }
-//        };
-//        Timer t = new Timer();
-//        t.schedule(task, 5000);
-
-
-        new Handler().postDelayed(new Runnable() {
-            @Override
-            public void run() {
-
-//                final Intent mainIntent = new Intent(LauchActivity.this, HomeActivity.class);
-//                LaunchActivity.this.startActivity(mainIntent);
-//                LaunchActivity.this.finish();
-            }
-        }, 5000);
-
-        //Helps with putting a timer for this activity to work
-
-       openQuestionsPage();
-
+        setContentView(R.layout.activity_main);
 
 
     }
@@ -71,7 +39,5 @@ public class MainActivity extends AppCompatActivity{
         Intent intent = new Intent(this,content_assignments.class);
         startActivity(intent);
     }
-//    private void finishScreen){
-//        this.finish();
-//    }
+
 }
