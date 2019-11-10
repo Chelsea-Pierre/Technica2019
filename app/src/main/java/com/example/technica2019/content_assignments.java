@@ -26,7 +26,7 @@ public class content_assignments extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_content_assignments);
+        setContentView(R.layout.content_assignments);
 
         listView = (ListView) findViewById(R.id.listview);
 
