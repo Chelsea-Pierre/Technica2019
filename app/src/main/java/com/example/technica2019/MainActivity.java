@@ -18,26 +18,28 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class MainActivity extends AppCompatActivity{
-    ListView listView;
+
+    Timer timer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
-
-
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                Intent intent = new Intent(MainActivity.this, content_name.class);
+                startActivity(intent);
+                finish();
 
-    }
-
-    public void openQuestionsPage(){
-
-        Intent intent = new Intent(this,content_assignments.class);
-        startActivity(intent);
+            }
+        }, 8000);
     }
 
 }
