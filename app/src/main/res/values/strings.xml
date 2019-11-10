@@ -7,13 +7,15 @@
     <string name="title_activity_content_assignments">content_assignments</string>
     <string name="title_activity_content__questions">activity_content_questions</string>
     <string name="Fake_Text">fake_text</string>
-    <string name ="enter_id">enter_id</string>
-    <string name="button">Button</string>
+    <string name="enter_id">0892586</string>
+    <string name="button">Next</string>
     <string name="autofill_hint">Hint</string>
-    <string name="student_name">name</string>
-    <string name="enter_name">enter_name</string>
-    <string name="button_2">button_2</string>
-    <string name="school_name">Enter your school name</string>
-    <string name="enter_school">What school do you go to?</string>
-    <string name="button_3">SUBMIT</string>
+    <string name="student_name">What is your name?</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="button_2">Next</string>
+    <string name="school_name">What school do you go to?</string>
+    <string name="enter_school">Enter school name</string>
+    <string name="button_3">Next</string>
+    <string name="app_title">Class Task</string>
+    <string name="uni_enter_hint">Florida International University</string>
 </resources>

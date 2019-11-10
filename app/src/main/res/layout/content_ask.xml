@@ -31,16 +31,14 @@
         android:layout_marginTop="100dp"
         android:autofillHints="@android:string/yes"
         android:ems="10"
-        android:hint="@string/autofill_hint"
+        android:hint="@string/enter_id"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
-        android:text="@string/enter_id"
         android:textAlignment="center"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:text="Enter your student ID" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/button"

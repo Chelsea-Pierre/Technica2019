@@ -26,18 +26,19 @@
 
     <EditText
         android:id="@+id/editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
         android:layout_marginTop="104dp"
         android:autofillHints=""
         android:ems="10"
         android:hint="@android:string/yes"
         android:inputType="textPersonName"
-        android:text="@string/enter_school"
+        android:text="@string/uni_enter_hint"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView2" />
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        tools:text="Florida Internataional University" />
 
     <Button
         android:id="@+id/button4"

@@ -25,28 +25,7 @@ public class MainActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-//will remove once placement is determined -CP
 
-//        listView = (ListView)findViewById(R.id.listview);
-//
-//
-//        ArrayList<String> questions = new ArrayList <>();
-//        questions.add("Question 1");
-//        questions.add("Question 2");
-//        questions.add("Question 3");
-//        questions.add("Question 4");
-//        questions.add("Question 5");
-//        questions.add("Question 6");
-//        questions.add("Question 7");
-//        questions.add("Question 8");
-//        questions.add("Question 9");
-//        questions.add("Question 10");
-//
-//        ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,questions);
-//
-//
-//
-//        listView.setAdapter(arrayAdapter);
 
 
         super.onCreate(savedInstanceState);
