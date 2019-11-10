@@ -30,16 +30,36 @@ public class content_assignments extends AppCompatActivity {
 
 
         ArrayList <String> questions = new ArrayList <>();
-        questions.add("Question 1");
-        questions.add("Question 2");
-        questions.add("Question 3");
-        questions.add("Question 4");
-        questions.add("Question 5");
-        questions.add("Question 6");
-        questions.add("Question 7");
-        questions.add("Question 8");
-        questions.add("Question 9");
-        questions.add("Question 10");
+        questions.add("Due: November 10, 10 a.m.                        ETC: 1 hr " +
+                "\nFuture of Technology Presentation" +
+                "\nENC 3249");
+        questions.add("Due: November 10, 2 p.m.                          ETC: 40 mins " +
+                "\nCalculus Assignment" +
+                "\nMAC 2312");
+        questions.add("Due: November 11, 11 p.m.                        ETC: 2 hrs " +
+                "\nFuture of Technology Reflection Essay" +
+                "\nENC 3249");
+        questions.add("Due: November 11, 8 a.m.                          ETC: 50 mins " +
+                "\nOpinion Paper" +
+                "\nIDH 3034");
+        questions.add("Due: November 11, 8 a.m.                          ETC: 40 mins " +
+                "\nCurrent Events Presentation" +
+                "\nIDH 3034");
+        questions.add("Due: November 11, 11 p.m.                          ETC: 35 mins " +
+                "\nArrays Pseudo Code" +
+                "\nCOP 2210");
+        questions.add("Due: November 12, 8 a.m.                          ETC: 1 hr " +
+                "\nChapters 1-5 Study Guide" +
+                "\nMAC 2312");
+        questions.add("Due: November 12, 8 a.m.                          ETC: 3 hrs " +
+                "\nResearch Project" +
+                "\nCOP2210");
+        questions.add("Due: November 13, 8 a.m.                          ETC: 1 hr " +
+                "\nPhysics 1 Homework Assignment" +
+                "\nPHY2048");
+        questions.add("Due: November 14, 11 p.m.                          ETC: 2 hrs " +
+                "\nLaw of Gravity Paper" +
+                "\nPHY2048");
 
         ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,questions);
 
