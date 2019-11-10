@@ -1,0 +1,25 @@
+package technica;
+
+public enum AssignmentType {
+    ESSSAY,
+    PROGRAMMING_PROJECT,
+    PRESENTATION,
+    MATH_HOMEWORK,
+    READ_ARTICLE;
+
+    public class AssignEnum {
+
+        AssignmentType type;
+
+        public AssignEnum(AssignmentType type){
+            this.type = type;
+        }
+
+        public AssignmentType getAssignmentType (){
+            return type;
+        }
+    }
+
+
+
+}

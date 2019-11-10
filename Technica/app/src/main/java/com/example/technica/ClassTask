@@ -1,0 +1,50 @@
+package technica;
+
+import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.Calendar;
+
+public class ClassTask implements Manage {
+
+    /*Time to complete assignment in minutes*/
+    private int minutesToComplete = 0;
+    private Calendar now = Calendar.getInstance();
+    private ArrayList <Assignment> assignmentList = new ArrayList<Assignment>();
+
+    public void addStudent(String name, int studentId, String university){
+        Student student = new Student(name, studentId, university);
+    }
+    public void addAssignment(Assignment assignment){
+        assignmentList.add(assignment);
+    }
+    public void calculateTime(AssignmentType type){
+        if (type == AssignmentType.ESSSAY){
+            minutesToComplete = 60;
+        }
+        else if(type == AssignmentType.PROGRAMMING_PROJECT){
+            minutesToComplete = 180;
+        }
+        else if(type == AssignmentType.PRESENTATION){
+            minutesToComplete = 240;
+        }
+        else if(type == AssignmentType.MATH_HOMEWORK){
+            minutesToComplete = 30;
+        }
+        else if(type == AssignmentType.READ_ARTICLE){
+            minutesToComplete = 15;
+        }
+        else{
+            minutesToComplete = 0;
+        }
+    }
+    public int getTimeToComplete() {
+        return minutesToComplete;
+    }
+    public String toString() {
+        String toRet = super.toString();
+        toRet += "\nEstimated minutes to complete: " + assignmentList.get(minutesToComplete).toString();
+        return toRet;
+    }
+
+
+}

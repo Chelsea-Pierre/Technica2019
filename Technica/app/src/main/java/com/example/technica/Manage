@@ -1,0 +1,15 @@
+package technica;
+
+public interface Manage {
+    /*Interface*/
+
+    /*Add assignment to the student*/
+    public void addStudent(String name, int studentId, String university);
+
+    public void addAssignment(Assignment assignment);
+
+    public void calculateTime(AssignmentType type);
+
+    public int getTimeToComplete();
+
+}

@@ -1,0 +1,28 @@
+package technica;
+
+public class Student {
+    private String name;
+    private int studentId;
+    private String university;
+
+    /*Student Constructor. A student has a name and a student id.*/
+    public Student(String name, int studentId, String university) {
+        this.name = name;
+        this.studentId = studentId;
+        this.university = university;
+    }
+    public String getName(){
+        return name;
+    }
+    public int getStudentId(){
+        return studentId;
+    }
+    public String getUniversity(){
+        return university;
+    }
+
+    public String toString(){
+        return "Name: " + name  + "\nStudent Id: " + studentId + "\nUniversity: " + university;
+    }
+
+}

@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" project-jdk-name="Android API 29 Platform" project-jdk-type="Android SDK" />
+=======
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
   </component>
+>>>>>>> b9b5e6a1c4cc4dec78f4700e50343153ef3e35ea
 </project>
