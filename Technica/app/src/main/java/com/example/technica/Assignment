@@ -1,0 +1,48 @@
+package technica;
+
+public class Assignment {
+    private String className;
+    private String assignmentName;
+    private static String DEFAULT_DUEDATE_FORMAT = "MM/dd/yyyy";
+    private int assignmentWeight;
+    private AssignmentType type;
+    private boolean completed = false;
+
+    /*Assignment constructor*/
+    public Assignment(String className, String assignmentName, String DEFAULT_DUEDATE_FORMAT,
+                      int assignmentWeight, AssignmentType type, boolean completed){
+        this.className = className;
+        this.assignmentName = assignmentName;
+        this.DEFAULT_DUEDATE_FORMAT = DEFAULT_DUEDATE_FORMAT;
+        this.assignmentWeight = assignmentWeight;
+        this.type = type;
+        this.completed = completed;
+
+    }
+
+    public String getClassName() {
+        return className;
+    }
+    public String getAssignmentName(){
+        return assignmentName;
+    }
+
+    public int getAssignmentWeight() {
+        return assignmentWeight;
+    }
+    public AssignmentType getAssignmentType() {
+        return type;
+    }
+
+    public boolean getCompleted() {
+        return completed;
+    }
+    public String toString(){
+        return "Class name: " + className + "\nAssignment Name: " + assignmentName +
+                "\nDate due: " + DEFAULT_DUEDATE_FORMAT+
+                "\nAssignment Weight: " + assignmentWeight + "% of " + className +
+                " grade" + "\nAssignment Type: " + type + "\nAssignment completed? " + completed;
+
+    }
+
+}

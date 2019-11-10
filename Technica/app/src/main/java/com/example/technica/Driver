@@ -1,0 +1,17 @@
+package technica;
+
+public class Driver {
+
+    public static void main(String[] args) {
+        // TODO Auto-generated method stub
+        Student s1 = new Student("Josie", 112, "University of Maryland");
+        String result = s1.toString();
+        System.out.println(result);
+
+        Assignment a1 = new Assignment("CMNS132", "Java Project", "11/9/2019", 20, AssignmentType.ESSSAY, false);
+        String result2 = a1.toString();
+        System.out.println(result2);
+
+    }
+
+}
