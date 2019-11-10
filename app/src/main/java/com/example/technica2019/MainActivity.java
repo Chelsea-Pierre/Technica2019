@@ -18,7 +18,7 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity{
 
     @Override
-    protected <LaunchActivity> void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //Toolbar toolbar = findViewById(R.id.toolbar);
@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity{
 //            public void run() {
 //                Intent intent = new Intent(SplashScreen.this, MainMenu.class);
 //                startActivity(intent);
-//                finishscreen();
+//                finishScreen();
 //            }
 //        };
 //        Timer t = new Timer();
@@ -43,9 +43,9 @@ public class MainActivity extends AppCompatActivity{
             @Override
             public void run() {
 
-                final Intent mainIntent = new Intent(LauchActivity.this, HomeActivity.class);
-                LaunchActivity.this.startActivity(mainIntent);
-                LaunchActivity.this.finish();
+//                final Intent mainIntent = new Intent(LauchActivity.this, HomeActivity.class);
+//                LaunchActivity.this.startActivity(mainIntent);
+//                LaunchActivity.this.finish();
             }
         }, 5000);
 
