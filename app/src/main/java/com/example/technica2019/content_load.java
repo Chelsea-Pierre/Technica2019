@@ -12,7 +12,7 @@ private static int SPLASH_TIME_OUT = 10000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.content_name);
+        setContentView(R.layout.content_load);
 
         new Handler().postDelayed(new Runnable(){
 
