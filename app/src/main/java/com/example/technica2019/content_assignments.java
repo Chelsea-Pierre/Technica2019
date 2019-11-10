@@ -47,7 +47,7 @@ public class content_assignments extends AppCompatActivity {
         questions.add("Due: November 11, 8 a.m.                          ETC: 40 mins " +
                 "\nCurrent Events Presentation" +
                 "\nIDH 3034");
-        questions.add("Due: November 11, 11 p.m.                          ETC: 35 mins " +
+        questions.add("Due: November 11, 11 p.m.                        ETC: 35 mins " +
                 "\nArrays Pseudo Code" +
                 "\nCOP 2210");
         questions.add("Due: November 12, 8 a.m.                          ETC: 1 hr " +
@@ -59,7 +59,7 @@ public class content_assignments extends AppCompatActivity {
         questions.add("Due: November 13, 8 a.m.                          ETC: 1 hr " +
                 "\nPhysics 1 Homework Assignment" +
                 "\nPHY2048");
-        questions.add("Due: November 14, 11 p.m.                          ETC: 2 hrs " +
+        questions.add("Due: November 14, 11 p.m.                        ETC: 2 hrs " +
                 "\nLaw of Gravity Paper" +
                 "\nPHY2048");
 
