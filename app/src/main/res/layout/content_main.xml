@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".content_main">
+    tools:context=".content_main"
+    android:background="@drawable/gradient_background">
 
     <TextView
         android:id="@+id/textView5"
@@ -16,6 +17,7 @@
         android:layout_marginBottom="437dp"
         android:fontFamily="@font/abel"
         android:text="@string/name_app"
+        android:textColor="#b19cd9"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

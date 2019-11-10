@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".content_ask"
-    tools:showIn="@layout/activity_content_ask">
+    tools:showIn="@layout/activity_content_ask"
+    android:background="@drawable/gradient_background">
 
     <TextView
         android:id="@+id/textView"

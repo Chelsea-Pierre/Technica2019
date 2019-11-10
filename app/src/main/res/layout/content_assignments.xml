@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".content_assignments"
-    tools:showIn="@layout/activity_content_assignments">
+    tools:showIn="@layout/activity_content_assignments"
+    android:background="@drawable/gradient_background">
 
     <ListView
         android:id="@+id/listview"
