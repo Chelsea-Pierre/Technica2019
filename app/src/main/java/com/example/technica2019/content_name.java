@@ -17,7 +17,7 @@ public class content_name extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_content_name);
+        setContentView(R.layout.content_name);
 
         Button button = findViewById(R.id.button3);
 
