@@ -14,11 +14,41 @@ import android.os.Handler;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity{
+    ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+//will remove once placement is determined -CP
+
+//        listView = (ListView)findViewById(R.id.listview);
+//
+//
+//        ArrayList<String> questions = new ArrayList <>();
+//        questions.add("Question 1");
+//        questions.add("Question 2");
+//        questions.add("Question 3");
+//        questions.add("Question 4");
+//        questions.add("Question 5");
+//        questions.add("Question 6");
+//        questions.add("Question 7");
+//        questions.add("Question 8");
+//        questions.add("Question 9");
+//        questions.add("Question 10");
+//
+//        ArrayAdapter arrayAdapter = new ArrayAdapter(this,android.R.layout.simple_list_item_1,questions);
+//
+//
+//
+//        listView.setAdapter(arrayAdapter);
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //Toolbar toolbar = findViewById(R.id.toolbar);

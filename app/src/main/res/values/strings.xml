@@ -5,4 +5,6 @@
     <string name="title_activity_content_school">content_school</string>
     <string name="title_activity_content_name">content_name</string>
     <string name="title_activity_content_assignments">content_assignments</string>
+    <string name="title_activity_content__questions">activity_content_questions</string>
+    <string name="Fake_Text">fake_text</string>
 </resources>
