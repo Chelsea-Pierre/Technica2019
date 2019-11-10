@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fading_main_text">
+        <item>Welcome</item>
+        <item>To</item>
+<!--        <item>our</item>-->
+<!--        <item>app</item>-->
+        <item>Class Task</item>
+        <item>We\'ll Help you Prioritize Assignments</item>
+        <item>Let\'s Get Started</item>
+    </string-array>
+</resources>
