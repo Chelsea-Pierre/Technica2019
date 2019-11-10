@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Technica2019</string>
     <string name="action_settings">Settings</string>
-<<<<<<< HEAD
     <string name="title_activity_content_ask">content_ask</string>
     <string name="title_activity_content_school">content_school</string>
     <string name="title_activity_content_name">content_name</string>
